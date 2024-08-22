@@ -1,41 +1,51 @@
-# PassTo AI
+# PassTo AI Customer Support Platform
 
-<p>
-<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPLV3-blue" alt="license GPLV3"></a>
-<a href="https://github.com/assimon/dujiaoka/releases/tag/1.0.0"><img src="https://img.shields.io/badge/version-1.0.0-red" alt="version 1.0.0"></a>
-</p>
+## Author
+PassTo AI
 
-## PassTo AI - `PassTo AI`助你快速拓展業務
+## Project Name
+PassTo AI customer service system
 
-> [PassTo AI](https://www.passto.ai/)采用精心设计的AI应用程序（AI APPs）高度封装AI模型的能力，为您提供专业的AI工具，并且开箱即用！
+## Introduction
+PassTo AI leverages advanced artificial intelligence to deliver exceptional customer support solutions. Our platform empowers businesses to offer responsive, multilingual support, significantly enhancing customer interaction and satisfaction.
 
-## 开箱即用
+## Official website
+https://www.passto.ai/
 
-- PassTo AI客服，三分钟完成搭建，并且自主学习，自我训练，快速响应，时刻为您的客户提供专业的服务！
-- PassTo AI Post，全天候监控市场实时要闻，智能筛选事件并在5分钟内完成营销软文撰写及投送！
+## Keywords
+AI customer support,Automated customer service,Multilingual AI chatbot,Real-time customer assistance,AI chatbot technology,Customer engagement AI,AI support solutions,Intelligent customer interactions,Scalable support automation,Advanced AI support systems,24/7 AI assistance,AI-driven service platforms,Customer experience automation,API for AI integration,SaaS customer support,AI for customer care,Business process automation,AI-enhanced customer interactions,Cloud-based AI services,Custom AI solutions,Intelligent response systems,AI for enterprise support,Natural language processing AI,AI customer analytics,Seamless customer support AI,AI operational efficiency,Customer lifecycle AI,AI-driven user support,Automated customer queries,AI for customer insights
 
+## Key Features
+- **Natural Language Understanding**: Employs cutting-edge models to interpret and respond to customer queries accurately.
+- **Multilingual Capabilities**: Supports various languages, enabling global reach for your business.
+- **24/7 Customer Engagement**: Ensures your customer support is available anytime, enhancing customer trust and reliability.
+- **Seamless API Integration**: Easily integrates with existing business systems, providing a smooth transition and user experience.
+- **Scalable Architecture**: Designed to handle large volumes of queries without compromising performance.
 
-## 使用方法
+## Technology Stack
+- **Languages**: Python, JavaScript
+- **Frameworks**: TensorFlow, PyTorch for AI modeling; Node.js for backend services
+- **APIs**: RESTful APIs for integration and scalability
+
+## Example Code
 ```
-<script  
-  async 
-  defer 
-  src="https://www.passto.ai/api/application/embed?protocol=https&host=www.passto.ai&token=xxxxxx"
-> 
+<script>
+  (function(){var w=window;var ic=w.PassToAI;if(typeof ic!=="function"){var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.PassToAI=i;var l=function(){var s=d.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cloud.passto.ai/api/application/embed?protocol=https&host=cloud.passto.ai&token=xxxxxx";var x=d.getElementsByTagName("script")[0];x.parentNode.insertBefore(s,x)};if(document.readyState==="complete"){l()}else{if(w.attachEvent){w.attachEvent("onload",l)}else{w.addEventListener("load",l,false)}}}})();
 </script>
 ```
+## Documentation
 
+For further information and detailed guides, visit [PassTo AI Documentation](api/zh_HK/CHAT/README.md).
 
-## 加入交流/意見反饋
+## Support
 
-- Telegram：https://t.me/Carlos_MTF
+Telegram: https://t.me/Carlos_MTF
 
-## 應用/會話 API 接口
+Skype: https://join.skype.com/invite/UbWTSQQUkSUl
 
-- [應用認證](api/zh_HK/CHAT/authentication.md)
-- [獲取應用信息](api/zh_HK/CHAT/profile.md)
-- [創建應用會話ID](api/zh_HK/CHAT/open.md)
-- [對話](api/zh_HK/CHAT/chat_message.md)
+E-Mail: [support@passto.ai](mailto:support@passto.ai)
 
-更多接口詳情訪問：https://www.passto.ai
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
