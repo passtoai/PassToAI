@@ -1,3 +1,5 @@
+> [English](./authentication.md) | [中文](./authentication_cn.md)
+
 ### POST /application/authentication
 
 ## 說明

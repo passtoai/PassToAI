@@ -1,3 +1,5 @@
+> [English](./profile.md) | [中文](./profile_cn.md)
+
 ### GET /application/profile
 
 ## 說明

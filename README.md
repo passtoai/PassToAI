@@ -1,3 +1,5 @@
+> [English](./README.md) | [中文](./README_cn.md)
+
 # PassTo AI Customer Support Platform
 
 ## Author
@@ -38,7 +40,7 @@ Welcome to PassTo AI! We provide a comprehensive, free AI customer support packa
 ```
 ## Documentation
 
-For further information and detailed guides, visit [PassTo AI Documentation](api/zh_HK/CHAT/README.md).
+For further information and detailed guides, visit [PassTo AI Documentation](api/access_guide.md).
 
 ## Support
 

@@ -1,18 +1,25 @@
-### GET /application/{application_id}/chat/open
+> [English](./chat_message.md) | [中文](./chat_message_cn.md)
+
+### GET application/chat_message/{chat_id}
 
 ## 說明
 
-創建應用會話ID
+對話
 
 ## 請求參數
 
 |字段|類型|必填項|說明|
 |--- |--- |--- |--- |
-|application_id|string|是|應用id|
+|message|string|是|问题|
+|re_chat|boolean|否|重新生成|
+|stream|boolean|否|流式回答|
+
 
 ```json
 {
-   "application_id":"123"
+  "message": "string",
+  "re_chat": false,
+  "stream": true
 }
 ```
 
@@ -28,6 +35,6 @@
 {
     "code": 200,
     "message": "成功",
-    "data": "63e5b956-4a57-11ef-968c-0242ac110002"
+    "data": ""
 }
 ```
